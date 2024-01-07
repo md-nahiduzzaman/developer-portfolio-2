@@ -1,3 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.container {
+  width: 75%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
 h1 {
-  color: brown;
+  color: #141c3a;
+  font-size: 64px;
+  line-height: 1.2;
+}
+
+h2 {
+  color: #141c3a;
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+h3 {
+  color: #0a0a0ac9;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+h4 {
+  color: #0a0a0ac9;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+p {
+  color: #141c3a;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.primary-btn {
+  border: 0;
+  border-radius: 5px;
+  background: rgb(172, 172, 172);
+  padding: 16px 32px;
+
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.ghost-btn {
+  border: 2px solid #acacac;
+  border-radius: 5px;
+  /* background: #acacac; */
+  padding: 16px 32px;
+
+  color: #141c3a;
+
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+/* nav style */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 88px;
+}
+
+.primary-nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+.primary-nav > ul > li {
+  list-style: none;
+  margin-left: 32px;
+}
+
+.logo-div h3 {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+/* hero section */
+
+header {
+  background-color: rgb(235, 235, 235);
+  height: 100vh;
+}
+
+.hero-container {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-sub-title {
+  margin-bottom: 12px;
+}
+
+.hero-title {
+  margin-bottom: 16px;
+}
+
+.hero-container p {
+  margin-bottom: 32px;
+  width: 550px;
+}
+
+.hero-container-element button {
+  margin-right: 16px;
+}
+
+.hero-container-profile img {
+  width: 100%;
+  /* border-radius: 50%; */
+}
+
+/* about me */
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-me p {
+  text-align: center;
+  width: 75%;
+  margin: 16px 0;
+}
+
+.about-info-container {
+  display: flex;
 }
